@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color1: #fff;
+	--color2: #000;
+}
+
+a,
+button,
+input[type='submit'],
+input[type='reset'] {
+	background: none;
+	text-decoration: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	outline: inherit;
+	user-select: none;
+	cursor: pointer;
+}
